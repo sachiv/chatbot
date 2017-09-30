@@ -5,7 +5,7 @@ Checkout the working chatbot: https://sachiv.github.io/chatbot/
 
 ( It is has free tier monthly limit so please use judiciously :) )
 
-> PS: Don't forget to assign your API Key in `src/js.scripts.js` to `apiKey` variable.
+> PS: Don't forget to assign your API Key in `src/js/scripts.js` to `apiKey` variable.
 
 ## Resources
 - Framework used: Framework7 (https://framework7.io/)
