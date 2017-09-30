@@ -88,7 +88,7 @@ gulp.task('imgCompression', function () {
 // Copy Favicon
 gulp.task('copy', function () {
     return gulp.src(paths.srcPath + '/libs/**/*')
-        .pipe(gulp.dest(paths.distPath));
+        .pipe(gulp.dest(paths.distPath + '/libs/'));
 });
 
 // Browser sync server for live reload
@@ -104,9 +104,9 @@ gulp.task('browserSync', function () {
 // Watch
 gulp.task('watch', function () {
 
-    gulp.watch(paths.sass + '/**/*.scss', ['styles']);
-    gulp.watch(paths.js + '/**/*.js', ['scripts']).on("change", reload);
-    gulp.watch(paths.images + '/*', ['imgCompression']);
+    gulp.watch(paths.src.sass + '/**/*.scss', ['styles']);
+    gulp.watch(paths.src.js + '/**/*.js', ['scripts']).on("change", reload);
+    gulp.watch(paths.src.images + '/*', ['imgCompression']);
     gulp.watch(paths.templates + '/**/*.html').on("change", reload);
 
 });
