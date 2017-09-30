@@ -1,7 +1,7 @@
 # ChatBot
 Creating a chatbot won't be simpler!
 
-Checkout the working chatbot: https://sachiv.github.io/feather-flex/
+Checkout the working chatbot: https://sachiv.github.io/chatbot/
 
 ( It is has free tier monthly limit so please use judiciously :) )
 
