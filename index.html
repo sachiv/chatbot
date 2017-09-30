@@ -17,7 +17,46 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <h1>Chat Bot</h1>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+        <div class="content-block">
+            <p>Left panel content goes here</p>
+        </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+        <div class="content-block">
+            <p>Right panel content goes here</p>
+        </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+        <!-- Your main view, should have "view-main" class-->
+        <div class="view view-main">
+            <!-- Top Navbar-->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="center sliding">ChatBot</div>
+                </div>
+            </div>
+            <div class="page toolbar-fixed navbar-fixed ">
+                <!-- Bottom Toolbar-->
+                <div class="toolbar messagebar">
+                    <div class="toolbar-inner">
+                        <textarea placeholder="Message"></textarea><a href="#" class="link">Send</a>
+                    </div>
+                </div>
+                <div class="page-content messages-content">
+                    <div class="messages">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="dist/libs/framework7.min.js"></script>
     <script src="dist/js/scripts.min.js"></script>
