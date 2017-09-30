@@ -104,8 +104,8 @@ gulp.task('browserSync', function () {
 // Watch
 gulp.task('watch', function () {
 
-    gulp.watch(paths.src.sass + '/**/*.scss', ['styles']);
-    gulp.watch(paths.src.js + '/**/*.js', ['scripts']).on("change", reload);
+    gulp.watch(paths.src.styles + '/**/*.scss', ['styles']);
+    gulp.watch(paths.src.scripts + '/**/*.js', ['scripts']).on("change", reload);
     gulp.watch(paths.src.images + '/*', ['imgCompression']);
     gulp.watch(paths.templates + '/**/*.html').on("change", reload);
 
