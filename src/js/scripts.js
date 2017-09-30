@@ -2,7 +2,7 @@ var bot_avatar_img_url = 'dist/images/bot-avatar.png',
     chatBotName = 'Cyborg',
     guest_name = 'Guest',
     apiURL = 'https://www.personalityforge.com/api/chat/',
-    apiKey = '__YOUR__KEY__', // use your own key
+    apiKey = 'tOUzRGKeglBMaKbY', // use your own key
     chatBotID = '63906';
 
 var myApp = new Framework7();
